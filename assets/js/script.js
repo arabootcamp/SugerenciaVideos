@@ -2,7 +2,6 @@
 const moduleIIFE = (() => {
   const setSrcPrivate = (url, id) => {
     id.setAttribute('src', url);
-    return;
   }
   return {
     showMoviePublic: (url, id) => setSrcPrivate(url, id)
